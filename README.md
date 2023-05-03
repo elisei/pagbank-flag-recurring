@@ -8,11 +8,9 @@ Sua lógica de definição para o fluxo de pagamento é via configuração admin
 
 ## Resalvas e Advertências de Uso
 
-Esse não é um módulo oficial da empresa PagBank.
+Essa é uma extensão do módulo oficial da empresa PagBank.
 
-Não há garantias fornecidas pela O2TI ou PagBank para esse produto.
-
-Esse é um módulo com o suporte exclusivo via issues aqui do GitHub.
+Em caso de dúvidas e problemas com a extensão acionar o time da Pagbank/O2TI através do github.
 
 ## Instalação
 
