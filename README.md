@@ -24,7 +24,7 @@ Para novos ciclos de pagamento para recorrência você deverá realizar o pagame
 
 Exemplo de request, **posterior a todas as etapas anteriores** para o pagamento via recorrência.
 
-´´´bash
+```bash
 Post para
 {{base_url}}/rest/V1/carts/mine/payment-information
 
@@ -58,13 +58,13 @@ Post para
         }
     }
 }
-´´´
+```
 sendo em vault_public_hash
 
 o valor público do cartão salvo, que pode ser obtido com:
 
-´´´sql
+```sql
 SELECT public_hash FROM seu_db.vault_payment_token where customer_id = 2;
-´´´
+```
 
 e recurring_type agora definido com SUBSEQUENT
